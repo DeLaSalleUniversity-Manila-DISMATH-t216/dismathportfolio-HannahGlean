@@ -1,7 +1,7 @@
 # dismathportfolio-HannahGlean
 dismathportfolio-HannahGlean created by Classroom for GitHub
 
-<center> # WEEK 1 </center>
+# WEEK 1 
 <ul> 
 <li> When I first heard of Discrete Mathematics(or DISMATH), I had no idea what it meant. </li>
 <li> I asked my friends from higher batch and they told me that it is mostly about logic. </li>
@@ -10,7 +10,7 @@ dismathportfolio-HannahGlean created by Classroom for GitHub
 <li> After the first week, I am already expecting that DISMATH will be one of my most challenging subjects; but with hard work and commitment
 I know that I will be able to pass this subject. </li>
 
-<center> # WEEK 2 </center>
+# WEEK 2
 <li> This week, our discussions officially started with <b>INTRODUCTION TO LOGICS AND PROOFS</b>. </li>
 <li> We defined <b>proof</b> as a chain of logical deductions reading to the proposition from a base set of axioms. </li>
 I have learned that:
@@ -50,7 +50,7 @@ I have learned that:
 <li> Sir Cabatuan gave several examples concerning Logical Equivalences and it made the topic easir to understand.
 
 
-<center> # WEEK 3 </center>
+# WEEK 3
 <li> <b> PROPOSITIONAL LOGIC </b> deals with propositions as a whole { subject + predicate }
 <li> <b> Predicate Logic </b> is concerned with their internal structure in terms of subject and predicate.
 <li> <b> Quantifiers </b> indicates the generality of the open sentence in which a variable occurs.
@@ -76,7 +76,7 @@ I have learned that:
 <li> A <b> fallacy </b> is a common form of incorrect reasoning.
 <li> A <b> tautology </b> is a statement or proposition that is always true.
 
-<center> # WEEK 4 </center>
+# WEEK 4
 <li> The tools that can be used to prove the validity of an argument are:
 1. Truth Table
 2. Logical Equivalences
@@ -106,7 +106,7 @@ Let
 <li>       t → h
 <li>        ∴ h   (m.p)
 
-<center> # WEEK 5 </center>
+# WEEK 5
 <li> The topic this week was <b> "METHODS OF PROOFS". </b>
 a. <b> DIRECT PROOF </b>
      1. Assume p is true (T).
@@ -131,7 +131,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
      To prove a theorem that is a biconditional statement, p → q, we show that p → q and q → p are true (T).
      
 
-<center> # WEEK 6 </center>
+# WEEK 6
 <li> We further discussed the Methods of Proofs.
 <li> <b> Proof by Counterexample </b> was introduced to us in the example:
     "Every positive integer is the sum of the squares of two integers."
