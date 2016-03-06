@@ -108,6 +108,7 @@ Let
 
 # WEEK 5
 <li> The topic this week was <b> "METHODS OF PROOFS". </b>
+
 a. <b> DIRECT PROOF </b>
      1. Assume p is true (T).
      2. Show that q is also true (T).
@@ -116,7 +117,9 @@ b. <b> CONTRAPOSITION </b>
      1. Assume ¬q is true (T).
      2. Show that ¬p is also true (T).
      
-c. c.1 <b> VACUOUS PROOF </b>
+c.
+
+   c.1 <b> VACUOUS PROOF </b>
      Show that p is false, because p → q must be true when p is false.
 
    c.2 <b> TRIVIAL PROOF </b>
@@ -155,12 +158,13 @@ e. <b> PROOF BY EQUIVALENCE </b>
       <li> ∑_(i=m)^n▒a_i , ∑_(i=m)^n▒a_i  , ∑_(1≤i≤n)▒a_i , or ∑_( a ∈ S)▒a
              where <b>i</b> = index of summation
 <li> <b> Recursive/Inductive Definition</b>
-  <li> BASIS STEP: 
+       BASIS STEP: 
         <li> Specify the value of the function at zero.
-  <li> RECURSIVE STEP:
+       RECURSIVE STEP:
         <li> Give a rule for finding its value at an integer from its values at smaller integers. 
+        
 <li> Examples were given such as:
-   <li> Find f(1), f(2), f(3), f(4)
+       Find f(1), f(2), f(3), f(4)
         f(0) = 3
         f(n+1) = 2f(n) + 3
         f(0+1) = 2(3) + 3 = 9
@@ -168,7 +172,8 @@ e. <b> PROOF BY EQUIVALENCE </b>
         f(2+1) = 2(21) + 3 = 45
         f(3+1) = 2(45) + 3 = 93
         f(4+1) = 2(93) + 3 = 189
-   <li> Give a recursive definition of a_n, where a is a nonzero real number and n is a nonnegative integer.
+       
+       Give a recursive definition of a_n, where a is a nonzero real number and n is a nonnegative integer.
         BASIS:
            0 or 1 f(0) = a^0 = 1
         INDUCTIVE/RECURSIVE:
@@ -176,9 +181,10 @@ e. <b> PROOF BY EQUIVALENCE </b>
            a^1 = f(n+1) = f(n) *a
                = a^n * a
                = a^(n+1)
+               
  <li> <b> Recursive Algorithms </b> solves a problem by reducing it to an instance of the same problem with smaller input.
- <li> Examples:
-   <li> What is the recursive algorithm for computing n!?
+         Examples:
+           <li> What is the recursive algorithm for computing n!?
              factorial (n = nonnegative integer) {
                 if (n == 0)
                     return 1;
@@ -186,7 +192,8 @@ e. <b> PROOF BY EQUIVALENCE </b>
                     return n*factorial
                                (n-1);
              }
-   <li> Give a recursive algorithm for computing a^n, where a is a nonzero real number and n is a nonnegative integer.
+             
+           <li> Give a recursive algorithm for computing a^n, where a is a nonzero real number and n is a nonnegative integer.
              power (a | a ≠ 0)
                      a ∈ R ;
                      n ∈ N ;
@@ -194,11 +201,12 @@ e. <b> PROOF BY EQUIVALENCE </b>
                      return 1;
                 else
                      return power (a, n-1) * a
+                     
  <li> <b> Program Correctness </b> is necessary to show that the program always gives the correct output.
-      <li> <b> Partial Correctness </b> 
+            <b> Partial Correctness </b> 
                 1. <i> Initial Assertion (p) </i> - gives the properties that the input values must have
                 2. <i> Final Assertion (q) </i> - gives properties that the output of the should have, if the program did what was intended
-      <li> <b> Hoare Triple p{S}q </b> is said to be partially correct with respect to the inital assertion p and the final assertion q if whenever p is true for the input value of S and S terminates, then q is true for the output values of S. 
+            <b> Hoare Triple p{S}q </b> is said to be partially correct with respect to the inital assertion p and the final assertion q if whenever p is true for the input value of S and S terminates, then q is true for the output values of S. 
       
                <b> Rules of Inference </b>
                    <li> COMPOSITION RULE
@@ -240,6 +248,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
          { x | some property x satisfies }
      
      <li><b> Venn Diagrams </b>
+     
           1. UNION - A ∪ B
           2. INTERSECTION - A ∩ B
           3. DIFFERENCE - A - B or A \ B
