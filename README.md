@@ -149,3 +149,100 @@ e. <b> PROOF BY EQUIVALENCE </b>
          a. Assume P(k) ≡ T
          b. Show P ( k + 1 ) ≡ T
          
+# WEEK 7
+<li> <b> Summation </b> was tackled. 
+<li> The notation for a_m , a_m+1 , … , a_n is:
+      <li> ∑_(i=m)^n▒a_i , ∑_(i=m)^n▒a_i  , ∑_(1≤i≤n)▒a_i , or ∑_( a ∈ S)▒a
+             where <b>i</b> = index of summation
+<li> <b> Recursive/Inductive Definition</b>
+  <li> BASIS STEP: 
+        <li> Specify the value of the function at zero.
+  <li> RECURSIVE STEP:
+        <li> Give a rule for finding its value at an integer from its values at smaller integers. 
+<li> Examples were given such as:
+   <li> Find f(1), f(2), f(3), f(4)
+        f(0) = 3
+        f(n+1) = 2f(n) + 3
+        f(0+1) = 2(3) + 3 = 9
+        f(1+1) = 2(9) + 3 = 21
+        f(2+1) = 2(21) + 3 = 45
+        f(3+1) = 2(45) + 3 = 93
+        f(4+1) = 2(93) + 3 = 189
+   <li> Give a recursive definition of a_n, where a is a nonzero real number and n is a nonnegative integer.
+        BASIS:
+           0 or 1 f(0) = a^0 = 1
+        INDUCTIVE/RECURSIVE:
+           a^n = f(n) = f(n-1) * a
+           a^1 = f(n+1) = f(n) *a
+               = a^n * a
+               = a^(n+1)
+ <li> <b> Recursive Algorithms </b> solves a problem by reducing it to an instance of the same problem with smaller input.
+ <li> Examples:
+   <li> What is the recursive algorithm for computing n!?
+             factorial (n = nonnegative integer) {
+                if (n == 0)
+                    return 1;
+                else 
+                    return n*factorial
+                               (n-1);
+             }
+   <li> Give a recursive algorithm for computing a^n, where a is a nonzero real number and n is a nonnegative integer.
+             power (a | a ≠ 0)
+                     a ∈ R ;
+                     n ∈ N ;
+                if (n == 0)
+                     return 1;
+                else
+                     return power (a, n-1) * a
+ <li> <b> Program Correctness </b> is necessary to show that the program always gives the correct output.
+      <li> <b> Partial Correctness </b> 
+                1. <i> Initial Assertion (p) </i> - gives the properties that the input values must have
+                2. <i> Final Assertion (q) </i> - gives properties that the output of the should have, if the program did what was intended
+      <li> <b> Hoare Triple p{S}q </b> is said to be partially correct with respect to the inital assertion p and the final assertion q if whenever p is true for the input value of S and S terminates, then q is true for the output values of S. 
+      
+               <b> Rules of Inference </b>
+                   <li> COMPOSITION RULE
+                            p {S_1} q
+                            q {S_2} r
+                           -----------------
+                           ∴ p {S_1, S_2} r
+                   <li> CONDITIONAL STATEMENT
+                            (p ^ condition) {S} q
+                            (p ^ ¬condition) → q
+                           -----------------------
+                            ∴ p {if condition then S} q
+                              Case I: condition ≡ T ( p ^ condition) {S}q
+                              Case II: condition ≡ F (p ^ ¬condition)
+                   <li> IF-ELSE STATEMENT
+                            (p ^ condition) {S_1} q
+                            (p ^ ¬condition) {S_2} q
+                           -------------------------------------
+                            ∴ p {if condition then S_1 else S_2} q
+ <li> <b> Representations of Functions as Power Series </b>
+          ∑_(n=0)^∞▒a_(x  )  x^n
+             <li> Example:
+                 1 + r + r^2 + r^3 + ... = 1/1-r
+                   for r < 1
+                   f(x) = 1/1-x = ∑_(n=0)^∞▒x_(n  ) = 1 + x + x^2 +...
+                   
+                  
+                  1/1+x = 1 - x + (-x)^2 + (-x)^3 ... + (-x)^n
+                        = 1 - x^2 + x^4 - x^6
+                        
+# WEEK 8
+ <li> <b> INTRODUCTION TO SET THEORY </b>
+    <li> We defined <b> set </b> as an unordered collection of distinct objects, which may be anything (including other sets)
+    <li> Order does not matter in a set.
+  <li> ∅ and {∅} are NOT EQUAL! Since it is an empty set, there should not be any element inside the set.
+      Just like how 3 an {3} are NOT EQUAL. 
+            3 is a number while {3} is a set containing a number.
+    <li> <b> Set Builder Notation </b>
+         { x | some property x satisfies }
+     
+     <li><b> Venn Diagrams </b>
+          1. UNION - A ∪ B
+          2. INTERSECTION - A ∩ B
+          3. DIFFERENCE - A - B or A \ B
+          4. SYMMETRIC DIFFERENCE - A ∆ B
+          
+          
