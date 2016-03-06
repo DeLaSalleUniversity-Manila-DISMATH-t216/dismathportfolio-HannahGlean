@@ -203,10 +203,10 @@ e. <b> PROOF BY EQUIVALENCE </b>
                      return power (a, n-1) * a
                      
  <li> <b> Program Correctness </b> is necessary to show that the program always gives the correct output.
-            <b> Partial Correctness </b> 
+            <li> <b> Partial Correctness </b> 
                 1. <i> Initial Assertion (p) </i> - gives the properties that the input values must have
                 2. <i> Final Assertion (q) </i> - gives properties that the output of the should have, if the program did what was intended
-            <b> Hoare Triple p{S}q </b> is said to be partially correct with respect to the inital assertion p and the final assertion q if whenever p is true for the input value of S and S terminates, then q is true for the output values of S. 
+            <li> <b> Hoare Triple p{S}q </b> is said to be partially correct with respect to the inital assertion p and the final assertion q if whenever p is true for the input value of S and S terminates, then q is true for the output values of S. 
       
                <b> Rules of Inference </b>
                    <li> COMPOSITION RULE
@@ -242,12 +242,12 @@ e. <b> PROOF BY EQUIVALENCE </b>
     <li> We defined <b> set </b> as an unordered collection of distinct objects, which may be anything (including other sets)
     <li> Order does not matter in a set.
   <li> ∅ and {∅} are NOT EQUAL! Since it is an empty set, there should not be any element inside the set.
-      Just like how 3 an {3} are NOT EQUAL. 
+      Just like how 3 an {3} are NOT EQUAL.  
             3 is a number while {3} is a set containing a number.
     <li> <b> Set Builder Notation </b>
          { x | some property x satisfies }
      
-     <li><b> Venn Diagrams </b>
+     <li> <b> Venn Diagrams </b>
      
           1. UNION - A ∪ B
           2. INTERSECTION - A ∩ B
