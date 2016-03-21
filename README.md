@@ -306,12 +306,12 @@ e. <b> PROOF BY EQUIVALENCE </b>
 
  <li> <b> FUNCTIONS </b>
     - Let A and B be sets. A function from A to B is an assignment of exactly one element of B to each element A.
-    - They are also called MAPPINGS or TRANSFORMATIONS.
-    - f: A to B </br>
+    - They are also called MAPPINGS or TRANSFORMATIONS. <br>
+    - f: A to B </br> <br>
        - A: domain </br>
        - B: co-domain
-      
+      <br>
         - Range - actually occuring values
         - IMAGE
              - If _f(a) = b_, _b- is the image of _A_.
-             - The range of _f_ is the set of all images of elements of _a_.
+             - The range of _f_ is the set of all images of elements of _a_. <br>
