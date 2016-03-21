@@ -312,7 +312,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
        - A: domain </br>
        - B: co-domain
       <br>
-        - Range - actually occuring values </br> <br>
-        - IMAGE </br> <br>
+        <li> Range - actually occuring values </br> <br>
+        <li> IMAGE </br> <br>
              - If _f(a) = b_, _b- is the image of _A_. </br> <br>
              - The range of _f_ is the set of all images of elements of _a_. </br>
