@@ -250,16 +250,16 @@ e. <b> PROOF BY EQUIVALENCE </b>
     <li> <b> Venn Diagrams </b>
      
           1. UNION - A ∪ B
-             > consists of all element from sets A and B
+             - consists of all element from sets A and B
              
           2. INTERSECTION - A ∩ B
-             > consists of only common elements in sets A and B
+             - consists of only common elements in sets A and B
    
           3. DIFFERENCE - A - B or A \ B
-             > consists of elements from sets A and B but not their intersection
+             - consists of elements from sets A and B but not their intersection
              
           4. SYMMETRIC DIFFERENCE - A ∆ B
-             > consists of elements from sets A and B but not their intersection
+             - consists of elements from sets A and B but not their intersection
              
             </br>
             
@@ -316,3 +316,117 @@ e. <b> PROOF BY EQUIVALENCE </b>
         - IMAGE 
              - If _f(a) = b_, _b- is the image of _A_. 
              - The range of _f_ is the set of all images of elements of _a_. 
+             
+    - <b> TYPES OF FUNCTIONS: </b>
+        - <i> ONE - TO - ONE FUNCTION (INJECTIVE) </i> - It never assigns the same value to two different domain elements.
+         - ex. f = { (a,4), (b,5), (c,1), (d,3) }
+          - <i> note: f = { (a,4), (b,5), (c,1), (d,3) } is NOT THE SAME with f = { (4,a), (5,b), (1,c), (3,d) }
+        - No value in the range is used by more than one value in the domain.
+         - ex. f: ℤ to ℤ
+               f(x) = x^2 
+                   <i> The function is one-to-one! </i>
+        - <i> ONTO FUNCTION (SURJECTIVE) </i> - function have equal range and codomain.
+        - <i> ONE-TO-ONE CORRESPONDENCE (BIJECTIVE) </i> - function is both ONE-TO-ONE and ONTO.
+        
+        - FUNCTION OR NOT?
+           -  f = { (a,2), (b,1), (c,2), (d,3), (4), (5) }
+               - FUNCTION BUT NEITHER ONE-TO-ONE NOR ONTO!
+           - f: y = sqrt(x)
+               - FUNCTION! In programming, we limit the output to positive only.
+               
+     - <b> ALGORITHM </b>
+            - a finite set of precise instructions for performing a computation or for solving a problem.
+         - <i> PROPERTIES OF ALGORITHM </i>
+           - INPUT - has input values from a specified set 
+           - OUTPUT - solution to the problem 
+           - DEFINITENESS - defined precisely 
+           - CORRECTNESS - produce the correct output values 
+           - FINITENESS - produce the desired output
+           - EFFECTIVENESS - perform exactly and in a finite amount of time 
+           - GENERALITY - applicable for all problems of the desired form
+           
+              - ex. - Input: ({a1, a2, a3,..,an} ∈ , Z)
+              - Output: largest 8
+              - Pseudocode
+            
+                > max = a1; </br>
+                > for i: 2 to n { </br>
+                >   if(max < ai) </br>
+                >       max = ai} </br>
+           
+     - <b> PSEUDOCODE </b>
+            - the high-level description of an algorithm that uses the structural convention
+            - intended for human reading
+          - PRECONDITIONS - describe valid input
+          - POSTCONDITIONS - conditions that the output should satisfy
+          
+       - <b> SEARCHING ALGORITHMS </b>
+          - The problwem of locating an element in an ordered list.
+          - Locate an element x in a list of distinct elements a1, a2,... an, or determine that it is not in the list
+            - x - element that is searched. Therefore, it is included in the input.
+            - ouput: location, i; loc = i if found, loc = -1 if not found
+      
+                > i=0 </br>
+                > while(i < n and x!=a1) </br>
+                >   i=i+1 </br>
+                > if i < n then loc = i </br>
+                > else loc = -1 </br>
+# WEEK 10
+            
+       - <b> BINARY SEARCH PSEUDOCODE </b> 
+          - comparison of the middle values of a list until the desired output is found.
+          
+       - <b> SORTING ALGORITHMS </b>  
+          - problem of assorting elements into increasing order
+          - 
+       - <b> BUBBLE SORT </b>
+          - compares the first two elements then interchanging them if they are in the incorrect order
+          
+       - <b> INSERTION SORT </b>
+          - compares the second element with the first and inserts it before the first element if it is less
+          - Otherwise, it is inserted after the first element.
+
+       - <b> GREEDY ALGORITHMS </b> 
+          - selects the best choice at each step, instead of considering all sequences that may lead to an optimal solution
+          - applied in optimization problems where a solution to the given problem either minimizes or maximizes the value of some parameter
+       - <b> The Complexity of Algorithm </b> and <b> BIG-O NOTATION </b> were introduced.
+       
+# WEEK 11
+  - <b> BIG-O NOTATION </b>
+     - upper-bound notation
+     - f(x) is less than or equal to C(g(x))
+     
+  - <b> GROWTH OF FUNCTIONS </b>
+     - often described using Big-O Notation
+     - definition: Let f and G be functions from R to R; f(x) is O(G(x)) if there are constants C and k.
+     - WITNESSES: C and k
+      > ex. Show that 7x^2 is O(x^3)
+        > 7x^2  ≤ C (x^3)
+        > ln = 2
+        > 7(2^2) = C (2^3)
+        > 28 = 8C
+        > C = 3.5 and k = 2
+   
+   - <b> BIG-OMEGA and BIG-THETA NOTATION </b>
+       - Big-O Notation does not provide a lower bound for the size of f(x)
+          - For LOWER bounds, we use <b> BIG-OMEGA notation </b>
+          - For LOWER and UPPER bounds, we use <b> BIG-THETA notation </b>
+           
+   - <b> ALGORITHM TIME COMPLEXITY </b>
+        - can be expressed in terms of the number of operations used by the algorithm when the input has a particular size
+        - the number of comparisons will be used as a measure of time complexity of the algorithm, because comparisons are the basic operations used.
+  
+   - <b> DIVISION and MODULO OPERATOR </b> 
+        - Let a be an integer and d a positive integer. Then there are unique integers q and r, with 0 ≤ r < d, such that a = dq + r
+        - q = a div d
+        - r = a mod d
+           - note: d - divisor, a - dividend, q - quotient, and r - remainder
+         > ex. What are the quotient and remainder when 101 is divided by 11?
+           > 101 div 11 = 9
+           > 101 mod 11 = 2
+         > ex. What is the quotient and remainder when -11 is divided by 3?
+           > -11 div 3 = -4
+           > -11 mod 3 = 1, since r cannot be negative.
+         - APPLICATIONS:
+             - Cryptology - the study of secret messages
+ 
