@@ -247,11 +247,72 @@ e. <b> PROOF BY EQUIVALENCE </b>
     <li> <b> Set Builder Notation </b>
          { x | some property x satisfies }
      
-     <li> <b> Venn Diagrams </b>
+    <li> <b> Venn Diagrams </b>
      
           1. UNION - A ∪ B
+             > consists of all element from sets A and B
+             
           2. INTERSECTION - A ∩ B
+             > consists of only common elements in sets A and B
+   
           3. DIFFERENCE - A - B or A \ B
+             > consists of elements from sets A and B but not their intersection
+             
           4. SYMMETRIC DIFFERENCE - A ∆ B
-          
-          
+             > consists of elements from sets A and B but not their intersection
+             
+     <li> <b> SET IDENTITIES </b> were also discussed.
+     
+ **SET IDENTITIES TABLE**
+
+|  **LAW**  |  **IDENTITY**  |
+| :------: | :-----------------------------: |
+|  Identity Laws  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
+|  Domination Laws  |  A ⋃ U ≡ U  <br>  A ⋂ ∅ ≡ ∅  |
+|  Idempotent Laws  |  A ⋃ A ≡ A  <br>  A ⋂ A ≡ A  |
+|  Complementation Law  |  (A¯)‾ ≡ A  |
+|  Commutative Laws  |  A ⋃ B ≡ B ⋃ A  <br>  A ⋂ B ≡ B ⋂ A  |
+|  Associative Laws  |  A ⋃ (B ⋃ C) ≡ (A ⋃ B) ⋃ C  <br>  A ⋂ (B ⋂ C) ≡ (A ⋂ B) ⋂ C  |
+|  Distributive Laws  |  A ⋃ (B ⋂ C) ≡ (A ⋃ B) ⋂ (A ⋃ C) <br>  A ⋂ (B ⋃ C) ≡ (A ⋂ B) ⋃ (A ⋂ C)  |
+|  De Morgan's Laws  |  (A ⋂ B)‾ ≡ A‾ ⋃ B‾  <br>  (A ⋃ B)‾ ≡ A‾ ⋂ B‾  |
+|  Absorption Laws  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
+|  Complement Laws  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
+
+<li> <b> SUBSETS </b> 
+   > A set S is a <b> <i> subset </b>  </i> of a set T (denoted S ⊆ T) if all elements of S are also elements of T.
+      ex. 
+      - {1,2,3} ⊆ {1,2,3,4}
+      - ℕ ⊆ ℤ  (every natural  number is an integer)
+      - ℤ ⊆ R (every integer is a mreal number)
+      
+      What are the subsets of {a,b,c}?
+         > It has eight (8) subsets:
+             { {a}, {b}, {c}, {a,b}, }b,c}, {a,c}, {a,b,c}, {} }
+             
+ <li>> <b> POWER SET </b> 
+    > a set of all subsets
+    > P(S) = {T|T ⊆ S}
+    
+ <li> <b> CARDINALITY </b> 
+    > number of elements it contains
+    > If S is a set, we denote its cardinality by writing |S| 
+    
+    ex.
+    - The cardinality of N. What is |N|?
+         > There are infinitely many natural numbers.
+      
+    > Infinite Cardinalities - alpha-null (0,1,2,3....)
+    
+   
+ # WEEK 9 
+ <li> <b> FUNCTIONS </b> ssi
+    > Let A and B be sets. A function from A to B is an assignment of exactly one element of B to each element A.
+    > They are also called MAPPINGS or TRANSFORMATIONS.
+    - f: A to B </br>
+       A: domain </br>
+       B: co-domain
+      
+         - Range - actually occuring values
+         - IMAGE
+      - If _f(a) = b_, _b- is the image of _A_.
+      - The range of _f_ is the set of all images of elements of _a_.
