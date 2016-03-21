@@ -246,7 +246,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
             3 is a number while {3} is a set containing a number.
     <li> <b> Set Builder Notation </b>
          { x | some property x satisfies }
-     
+   <br>      
     <li> <b> Venn Diagrams </b>
      
           1. UNION - A ∪ B
@@ -261,6 +261,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
           4. SYMMETRIC DIFFERENCE - A ∆ B
              > consists of elements from sets A and B but not their intersection
              
+            </br>
      <li> <b> SET IDENTITIES </b> were also discussed.
      
  **SET IDENTITIES TABLE**
@@ -286,16 +287,16 @@ e. <b> PROOF BY EQUIVALENCE </b>
       - ℤ ⊆ R (every integer is a mreal number)
       
       What are the subsets of {a,b,c}?
-         > It has eight (8) subsets:
+         - > It has eight (8) subsets:
              { {a}, {b}, {c}, {a,b}, }b,c}, {a,c}, {a,b,c}, {} }
              
  <li>> <b> POWER SET </b> 
-    > a set of all subsets
-    > P(S) = {T|T ⊆ S}
+    - > a set of all subsets
+    - > P(S) = {T|T ⊆ S}
     
  <li> <b> CARDINALITY </b> 
-    > number of elements it contains
-    > If S is a set, we denote its cardinality by writing |S| 
+    - > number of elements it contains
+    - > If S is a set, we denote its cardinality by writing |S| 
     
     ex.
     - The cardinality of N. What is |N|?
@@ -306,8 +307,8 @@ e. <b> PROOF BY EQUIVALENCE </b>
    
  # WEEK 9 
  <li> <b> FUNCTIONS </b> ssi
-    > Let A and B be sets. A function from A to B is an assignment of exactly one element of B to each element A.
-    > They are also called MAPPINGS or TRANSFORMATIONS.
+    - > Let A and B be sets. A function from A to B is an assignment of exactly one element of B to each element A.
+    - > They are also called MAPPINGS or TRANSFORMATIONS.
     - f: A to B </br>
        A: domain </br>
        B: co-domain
