@@ -320,7 +320,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
     - <b> TYPES OF FUNCTIONS: </b>
         - <i> ONE - TO - ONE FUNCTION (INJECTIVE) </i> - It never assigns the same value to two different domain elements.
          - ex. f = { (a,4), (b,5), (c,1), (d,3) }
-          - <i> note: f = { (a,4), (b,5), (c,1), (d,3) } is NOT THE SAME with f = { (4,a), (5,b), (1,c), (3,d) }
+          - <i> note: f = { (a,4), (b,5), (c,1), (d,3) } is NOT THE SAME with f = { (4,a), (5,b), (1,c), (3,d) } </i>
         - No value in the range is used by more than one value in the domain.
          - ex. f: ℤ to ℤ
                f(x) = x^2 
