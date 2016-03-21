@@ -371,6 +371,8 @@ e. <b> PROOF BY EQUIVALENCE </b>
                 >   i=i+1 </br>
                 > if i < n then loc = i </br>
                 > else loc = -1 </br>
+
+
 # WEEK 10
             
        - <b> BINARY SEARCH PSEUDOCODE </b> 
@@ -421,12 +423,12 @@ e. <b> PROOF BY EQUIVALENCE </b>
         - q = a div d
         - r = a mod d
            - note: d - divisor, a - dividend, q - quotient, and r - remainder
-         > ex. What are the quotient and remainder when 101 is divided by 11?
-           > 101 div 11 = 9
-           > 101 mod 11 = 2
-         > ex. What is the quotient and remainder when -11 is divided by 3?
-           > -11 div 3 = -4
-           > -11 mod 3 = 1, since r cannot be negative.
+         - ex. What are the quotient and remainder when 101 is divided by 11?
+           - 101 div 11 = 9
+           - 101 mod 11 = 2
+         - ex. What is the quotient and remainder when -11 is divided by 3?
+           - -11 div 3 = -4
+           - -11 mod 3 = 1, since r cannot be negative.
          - APPLICATIONS:
              - Cryptology - the study of secret messages
  
