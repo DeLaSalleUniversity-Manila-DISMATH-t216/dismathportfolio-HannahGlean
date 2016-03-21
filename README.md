@@ -279,8 +279,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
 |  Absorption Laws  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
 |  Complement Laws  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
 
-<li> <b> SUBSETS </b> 
-   > A set S is a <b> <i> subset </b>  </i> of a set T (denoted S ⊆ T) if all elements of S are also elements of T.
+<li> <b> SUBSETS </b> - A set S is a <b> <i> subset </b>  </i> of a set T (denoted S ⊆ T) if all elements of S are also elements of T.
       ex. 
       - {1,2,3} ⊆ {1,2,3,4}
       - ℕ ⊆ ℤ  (every natural  number is an integer)
@@ -290,25 +289,23 @@ e. <b> PROOF BY EQUIVALENCE </b>
          - > It has eight (8) subsets:
              { {a}, {b}, {c}, {a,b}, }b,c}, {a,c}, {a,b,c}, {} }
              
- <li>> <b> POWER SET </b> 
-    - > a set of all subsets
-    - > P(S) = {T|T ⊆ S}
+ <li>> <b> POWER SET </b> - a set of all subsets
+    <li> P(S) = {T|T ⊆ S}
     
- <li> <b> CARDINALITY </b> 
-    - > number of elements it contains
-    - > If S is a set, we denote its cardinality by writing |S| 
+ <li> <b> CARDINALITY </b> - number of elements it contains
+                           - If S is a set, we denote its cardinality by writing |S| 
     
     ex.
-    - The cardinality of N. What is |N|?
-         > There are infinitely many natural numbers.
+    <li>  The cardinality of N. What is |N|?
+         - There are infinitely many natural numbers.
       
-    > Infinite Cardinalities - alpha-null (0,1,2,3....)
+    <li>  Infinite Cardinalities - alpha-null (0,1,2,3....)
     
    
  # WEEK 9 
  <li> <b> FUNCTIONS </b> ssi
-    - > Let A and B be sets. A function from A to B is an assignment of exactly one element of B to each element A.
-    - > They are also called MAPPINGS or TRANSFORMATIONS.
+    - Let A and B be sets. A function from A to B is an assignment of exactly one element of B to each element A.
+    - They are also called MAPPINGS or TRANSFORMATIONS.
     - f: A to B </br>
        A: domain </br>
        B: co-domain
