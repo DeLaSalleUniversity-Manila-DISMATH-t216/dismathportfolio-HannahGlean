@@ -387,7 +387,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
        - <b> INSERTION SORT </b>
           - compares the second element with the first and inserts it before the first element if it is less
           - Otherwise, it is inserted after the first element.
-
+          
        - <b> GREEDY ALGORITHMS </b> 
           - selects the best choice at each step, instead of considering all sequences that may lead to an optimal solution
           - applied in optimization problems where a solution to the given problem either minimizes or maximizes the value of some parameter
