@@ -439,50 +439,58 @@ e. <b> PROOF BY EQUIVALENCE </b>
  - The main qualities are: <i> novelty, functionality, creativity, and over-all impact. </i>
  
 - <b> GRAPH THEORY </b>
- - Graph
-  - Graphs are discrete structures consisting of vertices and edges that connect these vertices.
-  - A graph G = (V, E) consists of V, a nonempty set of vertices (or nodes) and E, a set of edges. 
-  - Each edge has etiher one or two vertices associated with it, called its endpoints.
-   - Samples of a Graph
+- Graph
+ - Graphs are discrete structures consisting of vertices and edges that connect these vertices.
+ - A graph G = (V, E) consists of V, a nonempty set of vertices (or nodes) and E, a set of edges. 
+ - Each edge has etiher one or two vertices associated with it, called its endpoints.
+  - Samples of a Graph
    - [logo] : https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Graph.JPG
    - [logo] : https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Not%20this%20graph.JPG
- - <b> HANDSHAKING THEOREM </b>
-  - Let G = (V, E) be an undirected graph with e edges. Then
+   
+- <b> HANDSHAKING THEOREM </b>
+ - Let G = (V, E) be an undirected graph with e edges. Then
       > 2e = ∑(v)
-  - Example: How many edges are there in a graph with 10 vertices each of degree six? 
-     > 2e = ∑deg(v)
-     > 2e = 6 x 10
-     > 2e = 60
+
+ - Example: How many edges are there in a graph with 10 vertices each of degree six? 
+     > 2e = ∑deg(v) </br>
+     > 2e = 6 x 10 </br>
+     > 2e = 60 </br>
      > <b> e = 30 edges </b>
 
- - <b> COMPLETE GRAPH </b>
-  - A complete graph on n vertices, denoted by Kn, is the simple graph that contains exactly one edge between each pair of distinct vertices.
- - <b> CYCLES </b>
-  - The cycle Cn, n > = 3, consists of n vertices and edges.
- - <b> WHEELS </b> 
-  - We obtain the wheel Wn when we add an additional vertex to the cycle en, for n >= 3, and connect this new vertex to each of the vertices in Cn, by new edges. 
+- <b> COMPLETE GRAPH </b>
+ - A complete graph on n vertices, denoted by Kn, is the simple graph that contains exactly one edge between each pair of distinct vertices.
+- <b> CYCLES </b>
+ - The cycle Cn, n > = 3, consists of n vertices and edges.
+- <b> WHEELS </b> 
+ - We obtain the wheel Wn when we add an additional vertex to the cycle en, for n >= 3, and connect this new vertex to each of the vertices in Cn, by new edges. 
   
- - <b> SUBGRAPH </b>
-  - A subgraph of a graph G = (V, E) is a graph H = (W, F), where W ⊆ V and F ⊆ E.
-  - A subgraph H of G is a proper subgraph of G if H is not equal to G. 
- - <b> UNION </b>
-  - The union of two simple graphs G1 = (V1, E1) and G2 = (V2, E2) is the simple graph with vertex set V1 U V2 and edge set E1 U E2.
- - <b> PATH </b>
-  - a sequence of edges that begins at a vertex of a graph and travels from vertex to vertex along edges of the graph
+- <b> SUBGRAPH </b>
+ - A subgraph of a graph G = (V, E) is a graph H = (W, F), where W ⊆ V and F ⊆ E.
+ - A subgraph H of G is a proper subgraph of G if H is not equal to G. 
+- <b> UNION </b>
+ - The union of two simple graphs G1 = (V1, E1) and G2 = (V2, E2) is the simple graph with vertex set V1 U V2 and edge set E1 U E2.
+- <b> PATH </b>
+ - a sequence of edges that begins at a vertex of a graph and travels from vertex to vertex along edges of the graph
 
 - <b> EULER CIRCUIT AND PATHS </b>
  - <i> Euler Circuit </i> in a graph G is a simple circuit ocntaining every edge of G. An </i> Euler Path </i> in G is a simple path containing every edge of G. 
  - Do not traverse the bridge twice!
  - It can only be a CIRCUIT if it goes back to the starting point.
   - When there are EVEN number of NODES, you can simply come back.
-   - THat is why mobile phones nowadays have a BACK button. It is an EULER CIRCUIT DESIGN.
- - <b> EULER CIRCUIT </b> 
+   - That is why mobile phones nowadays have a BACK button. It is an EULER CIRCUIT DESIGN.
+ 
+- <b> EULER CIRCUIT </b> 
   - a graph with all vertices/nodes having even degrees (connected edge)
   - pass all edges/bridges once only
- - <b> EULER PATH </b>
+  
+- <b> EULER PATH </b>
   - graph with exact two (2) vertices/nodes with odd degrees (connected edge)
  
-- <b> 
+- <b> HAMILTON PATHS AND CIRCUITS </b>
+ - pass all the vertices/nodes (islands) exactly once
+ - goes back to the starting point
 
+*NOTE: If the graph is a CIRCUIT, it is AUTOMATICALLY a PATH. But a graph being a PATH does not always end up being a CIRCUIT.*
+*If it is a PENDANT, it CANNOT be a CIRCUIT.
 
 
