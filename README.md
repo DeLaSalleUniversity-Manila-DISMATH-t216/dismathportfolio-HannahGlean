@@ -431,4 +431,18 @@ e. <b> PROOF BY EQUIVALENCE </b>
            - -11 mod 3 = 1, since r cannot be negative.
          - APPLICATIONS:
              - Cryptology - the study of secret messages
+
+#WEEK 12
+- We discussed the Project which is twenty-five (25%) of our final grade. 
+ - It is due on April 13, 2016 and the objective is to be able to design and develop an application for Discrete Mathematics concept using the MIT App Inventor. 
+ - It includes the MIT Application itself and a written report in IEEE format. 
+ - The main qualities are: <i> novelty, functionality, creativity, and over-all impact. </i>
+ - 
+ 
+- GRAPH THEORY
+ - Graph
+  - Graphs are discrete structures consisting of vertices and edges that connect these vertices.
+  - A graph G = (V, E) consists of V, a nonempty set of vertices (or nodes) and E, a set of edges. 
+  - Each edge has etiher one or two vertices associated with it, called its endpoints.
+  - 
  
