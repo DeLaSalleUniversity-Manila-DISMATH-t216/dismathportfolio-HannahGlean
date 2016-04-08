@@ -373,25 +373,25 @@ e. <b> PROOF BY EQUIVALENCE </b>
                 > else loc = -1 </br>
 
 
-# WEEK 10
-            
-       - <b> BINARY SEARCH PSEUDOCODE </b> 
+#WEEK 10
+
+  - <b> BINARY SEARCH PSEUDOCODE </b> 
           - comparison of the middle values of a list until the desired output is found.
           
-       - <b> SORTING ALGORITHMS </b>  
+  - <b> SORTING ALGORITHMS </b>  
           - problem of assorting elements into increasing order
           - 
-       - <b> BUBBLE SORT </b>
+  - <b> BUBBLE SORT </b>
           - compares the first two elements then interchanging them if they are in the incorrect order
           
-       - <b> INSERTION SORT </b>
+  - <b> INSERTION SORT </b>
           - compares the second element with the first and inserts it before the first element if it is less
           - Otherwise, it is inserted after the first element.
-          
-       - <b> GREEDY ALGORITHMS </b> 
+
+  - <b> GREEDY ALGORITHMS </b> 
           - selects the best choice at each step, instead of considering all sequences that may lead to an optimal solution
           - applied in optimization problems where a solution to the given problem either minimizes or maximizes the value of some parameter
-       - <b> The Complexity of Algorithm </b> and <b> BIG-O NOTATION </b> were introduced.
+  - <b> The Complexity of Algorithm </b> and <b> BIG-O NOTATION </b> were introduced.
        
 # WEEK 11
   - <b> BIG-O NOTATION </b>
