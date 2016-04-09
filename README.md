@@ -451,8 +451,8 @@ e. <b> PROOF BY EQUIVALENCE </b>
  - A graph G = (V, E) consists of V, a nonempty set of vertices (or nodes) and E, a set of edges. 
  - Each edge has etiher one or two vertices associated with it, called its endpoints.
   - Samples of a Graph
-   - [!alt text] : https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Graph.JPG
-   - [!alt text] : https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Not%20this%20graph.JPG
+   - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Graph.JPG
+   - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Not%20this%20graph.JPG
    
 - <b> HANDSHAKING THEOREM </b>
  - Let G = (V, E) be an undirected graph with e edges. Then
@@ -522,14 +522,14 @@ e. <b> PROOF BY EQUIVALENCE </b>
 - <b> ISOMORPHISM of GRAPHS </b>
  - Simple graphs G1 = (V1, E1) & G2 = (V2, E2) are isomorphic if there is a one-to-one and onto function f from V1 to V2 with the property that a and b are adjacent in G1 if and only if f(a) and f(b) are adjacent in G2, for all a and b in V1.
  - Example:
-  - [!alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/iso.JPG
+  - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/iso.JPG
   
 - <b> PLANAR GRAPHS </b>
  - Planar graps are graphs that can be drawn in the plane without edges having to cross.
  - Any graph representation of maps/topographical information is planar.
  - Circuits are usually represented by planar graphs (PCB circuit design)
   - Example: 
-  - [!alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/planargraph1.JPG
+  - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/planargraph1.JPG
   
 - <b> EULER'S FORMULA </b>
  - Let G be a connected planar simple graph with e edges and v vertices. Let r be the number of regions in a planar representation of G. Then
@@ -588,7 +588,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
   - (ii) i internal vertices has n = mi + 1 vertices and l = (m-1)i + 1 leaves,
   - (iii) l leaves has n = (ml - 1)/(m-1) vertices and i = (l-1)/(m-1) internal vertices
   
-- <b> MODELING COMPUTATION <b> 
+- <b> MODELING COMPUTATION </b> 
  - Structures in models of computaion:
     1. Grammars
     2. Finite-State Machines
@@ -613,7 +613,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
 - <b> FINITE-STATE MACHINE </b>
  - consists of a finite set S of states, a finite input alphabet I, a finite output alphabet O, a transitiom function f that assigns to each state and input pair a new state, an output function g that assigns to each state and input pair an output, and an initial state s0.
  - example
-   - [!alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/vending%20machine.png
+   - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/vending%20machine.png
  
 - <b> FINITE-MACHINES (NO OUTPUT) </b>
  - A finite-state automaton M = (S, I, f, s0, F ) consists of a finite set S of states, a finite input alphabet I, a transition function f that assigns a next state to every pair of state and input (so that f : S × I → S), an initial or start state s0, and a subset F of S consisting of final (or accepting states).
