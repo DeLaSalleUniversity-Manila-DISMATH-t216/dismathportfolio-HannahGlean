@@ -451,8 +451,8 @@ e. <b> PROOF BY EQUIVALENCE </b>
  - A graph G = (V, E) consists of V, a nonempty set of vertices (or nodes) and E, a set of edges. 
  - Each edge has etiher one or two vertices associated with it, called its endpoints.
   - Samples of a Graph
-   - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Graph.JPG
-   - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Not%20this%20graph.JPG
+   - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Graph.JPG?raw=true
+   - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Not%20this%20graph.JPG?raw=true
    
 - <b> HANDSHAKING THEOREM </b>
  - Let G = (V, E) be an undirected graph with e edges. Then
@@ -516,8 +516,8 @@ e. <b> PROOF BY EQUIVALENCE </b>
  - The adjacency matrix A (or Ag) of G, with respect to this listing of the vertices, is the nxn zero-one matrix with 1 as its (i,j)th entry when Vi and Vj are adjacent, and 0 as its (i,j)ith entry when they are not adjacent
   
   - EXAMPLE:
-    - [! alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/matrix1.JPG
-    - [! alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/matrix2.JPG
+    - [! alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/matrix1.JPG?raw=true
+    - [! alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/matrix2.JPG?raw=true
 
 - <b> ISOMORPHISM of GRAPHS </b>
  - Simple graphs G1 = (V1, E1) & G2 = (V2, E2) are isomorphic if there is a one-to-one and onto function f from V1 to V2 with the property that a and b are adjacent in G1 if and only if f(a) and f(b) are adjacent in G2, for all a and b in V1.
@@ -529,7 +529,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
  - Any graph representation of maps/topographical information is planar.
  - Circuits are usually represented by planar graphs (PCB circuit design)
   - Example: 
-  - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/planargraph1.JPG
+  - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/planargraph1.JPG?raw=true
   
 - <b> EULER'S FORMULA </b>
  - Let G be a connected planar simple graph with e edges and v vertices. Let r be the number of regions in a planar representation of G. Then
@@ -613,7 +613,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
 - <b> FINITE-STATE MACHINE </b>
  - consists of a finite set S of states, a finite input alphabet I, a finite output alphabet O, a transitiom function f that assigns to each state and input pair a new state, an output function g that assigns to each state and input pair an output, and an initial state s0.
  - example
-   - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/vending%20machine.png
+   - ![alt text] https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/vending%20machine.png?raw=true
  
 - <b> FINITE-MACHINES (NO OUTPUT) </b>
  - A finite-state automaton M = (S, I, f, s0, F ) consists of a finite set S of states, a finite input alphabet I, a transition function f that assigns a next state to every pair of state and input (so that f : S × I → S), an initial or start state s0, and a subset F of S consisting of final (or accepting states).
