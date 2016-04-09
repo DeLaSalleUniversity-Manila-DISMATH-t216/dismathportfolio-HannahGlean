@@ -1,23 +1,23 @@
-# dismathportfolio-HannahGlean
-dismathportfolio-HannahGlean created by Classroom for GitHub
+# dismathportfolio-HannahPituk
+dismathportfolio-HannahPituk created by Classroom for GitHub
 
 # WEEK 1 
-<ul> 
-<li> When I first heard of Discrete Mathematics(or DISMATH), I had no idea what it meant. </li>
-<li> I asked my friends from higher batch and they told me that it is mostly about logic. </li>
-<li> When I learned that it was all about logic, I thought it was the same kind of logic we had in high school and during the entrance exams.</li>
-<li> As Sir Cabatuan further explained to us the subject, the more it became challenging. </li>
-<li> After the first week, I am already expecting that DISMATH will be one of my most challenging subjects; but with hard work and commitment
-I know that I will be able to pass this subject. </li>
+ https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean
+- When I first heard of Discrete Mathematics(or DISMATH), I had no idea what it meant.
+- I asked my friends from higher batch and they told me that it is mostly about logic. 
+- When I learned that it was all about logic, I thought it was the same kind of logic we had in high school and during the entrance exams.
+- As Sir Cabatuan further explained to us the subject, the more it became challenging. 
+- After the first week, I am already expecting that DISMATH will be one of my most challenging subjects; but with hard work and commitment I know that I will be able to pass this subject.
 
 # WEEK 2
-<li> This week, our discussions officially started with <b>INTRODUCTION TO LOGICS AND PROOFS</b>. </li>
-<li> We defined <b>proof</b> as a chain of logical deductions reading to the proposition from a base set of axioms. </li>
+
+- This week, our discussions officially started with <b>INTRODUCTION TO LOGICS AND PROOFS</b>. 
+- We defined <b>proof</b> as a chain of logical deductions reading to the proposition from a base set of axioms. 
 I have learned that:
-<li> <b> Proposition </b> is a statement that is either true (1) or false (0).
-<li> <b> Logical Deduction </b> is a process of reasoning from one or more statements (premises) to reach a logically certain conclusion. 
-<li> <b> Axiom </b> is a statement or proposition that is regarded as being established, accepted, or self-evidently true.
-<li> <b> LOGICAL CONNECTIVES </b> were also introduced to us:
+- <b> Proposition </b> is a statement that is either true (1) or false (0).
+- <b> Logical Deduction </b> is a process of reasoning from one or more statements (premises) to reach a logically certain conclusion. 
+- <b> Axiom </b> is a statement or proposition that is regarded as being established, accepted, or self-evidently true.
+- <b> LOGICAL CONNECTIVES </b> were also introduced to us:
 
 | Logical Symbol  |  Logical Operator     | Shorthand | Formula                                       | Logical Expression            |
 | :-------------: |:---------------------:|:---------:|:---------------------------------------------:|:-----------------------------:|
@@ -28,9 +28,9 @@ I have learned that:
 | →               | Conditional           | if, then  | if val(p) ≤ val(q) = 1, otherwise 0           | p → q ≡  ¬p v q               |
 | ↔               | Biconditional         | iff       | if val(p) equals val(q) = 1, otherwise 0      | p ↔ q ≡ (p → q) ∧ (q → p)     |
 
-<li> The <b> Truth Table </b> lists all possible inputs or combination of inputs with corresponding output. 
-<li> We can determine the number of rows needed in a truth table by using 2^n with <b> n </b> representing the number of variables.
-<li> We also discussed <b> LOGICAL EQUIVALENCES </b> which includes:
+- The <b> Truth Table </b> lists all possible inputs or combination of inputs with corresponding output. 
+- We can determine the number of rows needed in a truth table by using 2^n with <b> n </b> representing the number of variables.
+- We also discussed <b> LOGICAL EQUIVALENCES </b> which includes:
 
  
 |  **LAW**  |  **EQUIVALENCE**  |
@@ -46,17 +46,18 @@ I have learned that:
 |  _De Morgan's Laws_  |  ¬(p ∧ q) ≡ ¬p ∨ ¬q  ;;  ¬(p ∨ q) ≡ ¬p ∧ ¬q  |
 |  _Absorption Laws_  |  p ∨ (p ∧ q) ≡ p  ;;  p ∧ (p ∨ q) ≡ p  |
 
-<li> <b> Implication Equivalence </b>: p → q ≡ ¬p ∧ q
-<li> Sir Cabatuan gave several examples concerning Logical Equivalences and it made the topic easir to understand.
+- <b> Implication Equivalence </b>: p → q ≡ ¬p ∧ q
+- Sir Cabatuan gave several examples concerning Logical Equivalences and it made the topic easir to understand.
 
 
 # WEEK 3
-<li> <b> PROPOSITIONAL LOGIC </b> deals with propositions as a whole { subject + predicate }
-<li> <b> Predicate Logic </b> is concerned with their internal structure in terms of subject and predicate.
-<li> <b> Quantifiers </b> indicates the generality of the open sentence in which a variable occurs.
-<li> <b> Existential Quantifier ( ∃x ) </b> indicates "there exists".
-<li> <b> Universal Quantifier ( ∀x ) </b> indicates "for all".
-<li> <b> RULES OF INFERENCE </b> were also introduced. They are composed of:
+
+- <b> PROPOSITIONAL LOGIC </b> deals with propositions as a whole { subject + predicate }
+- <b> Predicate Logic </b> is concerned with their internal structure in terms of subject and predicate.
+- <b> Quantifiers </b> indicates the generality of the open sentence in which a variable occurs.
+- <b> Existential Quantifier ( ∃x ) </b> indicates "there exists".
+- <b> Universal Quantifier ( ∀x ) </b> indicates "for all".
+- <b> RULES OF INFERENCE </b> were also introduced. They are composed of:
 
 
 |   **Rule of Inference**  |            **Tautology**           |          **Name**          |
@@ -70,44 +71,46 @@ I have learned that:
 |      p<br>q<br>∴ p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
 | p ∨ q<br>¬p ∨ r<br>∴ q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       | 
 
-<li> Since some arguments have several variables, using the rules of inference rather than the truth table will save much time and effort.
-<li> An <b> argument </b> is a sequence of statements that end with a conclusion. 
-<li> <b> Validity </b> is dependent of the structure. It assures that the conclusion is true if and only if all the premises are true.
-<li> A <b> fallacy </b> is a common form of incorrect reasoning.
-<li> A <b> tautology </b> is a statement or proposition that is always true.
+- Since some arguments have several variables, using the rules of inference rather than the truth table will save much time and effort.
+- An <b> argument </b> is a sequence of statements that end with a conclusion. 
+- <b> Validity </b> is dependent of the structure. It assures that the conclusion is true if and only if all the premises are true.
+- A <b> fallacy </b> is a common form of incorrect reasoning.
+- A <b> tautology </b> is a statement or proposition that is always true.
 
 # WEEK 4
-<li> The tools that can be used to prove the validity of an argument are:
+
+- The tools that can be used to prove the validity of an argument are:
 1. Truth Table
 2. Logical Equivalences
 3. Quantifiers
 4. Rules of Inference
 
-<li> Rules of Inference were further discussed and examples were shown.
-<li> Example:
+- Rules of Inference were further discussed and examples were shown.
+ - Example:
 Let
-<li> s = "It is sunny this afternoon"
-<li> c = "It is colder"
-<li> w = "We will go swimming"
-<li> t = "We will take a canoe trip"
-<li> h = "We will be home by sunset"
-<li> The premises stated were:
+  - s = "It is sunny this afternoon"
+  - c = "It is colder"
+  - w = "We will go swimming"
+  - t = "We will take a canoe trip"
+  - h = "We will be home by sunset"
+  - The premises stated were:
 1. ¬s ∧ c
 2. ¬s → ¬w
 3. ¬w → t
 4. t → h
-<li> ∴ h
-<li> To prove it using Rules of inference
-<li> ¬s (Simplification of Premise 1)
-<li> w → s
-<li>  ∴ ¬w   (m.t.)
-<li>    ¬w → t 
-<li>     ∴ t   (m.p.)
-<li>       t → h
-<li>        ∴ h   (m.p)
+    - ∴ h
+    - To prove it using Rules of inference
+    - ¬s (Simplification of Premise 1)
+     - w → s
+      - ∴ ¬w   (m.t.)
+       - ¬w → t  
+        - ∴ t   (m.p.)
+         - t → h
+          - ∴ h   (m.p)
 
 # WEEK 5
-<li> The topic this week was <b> "METHODS OF PROOFS". </b>
+
+- The topic this week was <b> "METHODS OF PROOFS". </b>
 
 a. <b> DIRECT PROOF </b>
      1. Assume p is true (T).
@@ -135,13 +138,14 @@ e. <b> PROOF BY EQUIVALENCE </b>
      
 
 # WEEK 6
-<li> We further discussed the Methods of Proofs.
-<li> <b> Proof by Counterexample </b> was introduced to us in the example:
+
+- We further discussed the Methods of Proofs.
+- <b> Proof by Counterexample </b> was introduced to us in the example:
     "Every positive integer is the sum of the squares of two integers."
        The counterexample given were 3, 6, 7, and 10 since they are not a sum of squares of two integers.
-<li> It is sometimes hard to determine what method should one use for a certain argument but having many examples and reading further for each of the methods helps.
+- It is sometimes hard to determine what method should one use for a certain argument but having many examples and reading further for each of the methods helps.
 
-<li> We started tackling <b> MATHEMATICAL INDUCTION </b>.
+- We started tackling <b> MATHEMATICAL INDUCTION </b>.
    Methods used are:
      1. SUBSTITUTION
      2. DIRECT PROOF
@@ -153,17 +157,18 @@ e. <b> PROOF BY EQUIVALENCE </b>
          b. Show P ( k + 1 ) ≡ T
          
 # WEEK 7
-<li> <b> Summation </b> was tackled. 
-<li> The notation for a_m , a_m+1 , … , a_n is:
-      <li> ∑_(i=m)^n▒a_i , ∑_(i=m)^n▒a_i  , ∑_(1≤i≤n)▒a_i , or ∑_( a ∈ S)▒a
+
+- <b> Summation </b> was tackled. 
+- The notation for a_m , a_m+1 , … , a_n is:
+    - ∑_(i=m)^n▒a_i , ∑_(i=m)^n▒a_i  , ∑_(1≤i≤n)▒a_i , or ∑_( a ∈ S)▒a
              where <b>i</b> = index of summation
-<li> <b> Recursive/Inductive Definition</b>
+- <b> Recursive/Inductive Definition</b>
        BASIS STEP: 
-        <li> Specify the value of the function at zero.
+        - Specify the value of the function at zero.
        RECURSIVE STEP:
-        <li> Give a rule for finding its value at an integer from its values at smaller integers. 
+        - Give a rule for finding its value at an integer from its values at smaller integers. 
         
-<li> Examples were given such as:
+- Examples were given such as:
        Find f(1), f(2), f(3), f(4)
         f(0) = 3
         f(n+1) = 2f(n) + 3
@@ -182,9 +187,9 @@ e. <b> PROOF BY EQUIVALENCE </b>
                = a^n * a
                = a^(n+1)
                
- <li> <b> Recursive Algorithms </b> solves a problem by reducing it to an instance of the same problem with smaller input.
+ - <b> Recursive Algorithms </b> solves a problem by reducing it to an instance of the same problem with smaller input.
          Examples:
-           <li> What is the recursive algorithm for computing n!?
+           - What is the recursive algorithm for computing n!?
              factorial (n = nonnegative integer) {
                 if (n == 0)
                     return 1;
@@ -193,7 +198,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
                                (n-1);
              }
              
-           <li> Give a recursive algorithm for computing a^n, where a is a nonzero real number and n is a nonnegative integer.
+           - Give a recursive algorithm for computing a^n, where a is a nonzero real number and n is a nonnegative integer.
              power (a | a ≠ 0)
                      a ∈ R ;
                      n ∈ N ;
@@ -202,33 +207,34 @@ e. <b> PROOF BY EQUIVALENCE </b>
                 else
                      return power (a, n-1) * a
                      
- <li> <b> Program Correctness </b> is necessary to show that the program always gives the correct output.
-            <li> <b> Partial Correctness </b> 
+ - <b> Program Correctness </b> is necessary to show that the program always gives the correct output.
+            - <b> Partial Correctness </b> 
                 1. <i> Initial Assertion (p) </i> - gives the properties that the input values must have
                 2. <i> Final Assertion (q) </i> - gives properties that the output of the should have, if the program did what was intended
-            <li> <b> Hoare Triple p{S}q </b> is said to be partially correct with respect to the inital assertion p and the final assertion q if whenever p is true for the input value of S and S terminates, then q is true for the output values of S. 
+            - <b> Hoare Triple p{S}q </b> is said to be partially correct with respect to the inital assertion p and the final assertion q if whenever p is true for the input value of S and S terminates, then q is true for the output values of S. 
       
                <b> Rules of Inference </b>
-                   <li> COMPOSITION RULE
+                   - COMPOSITION RULE
                             p {S_1} q
                             q {S_2} r
                            -----------------
                            ∴ p {S_1, S_2} r
-                   <li> CONDITIONAL STATEMENT
+                   - CONDITIONAL STATEMENT
                             (p ^ condition) {S} q
                             (p ^ ¬condition) → q
                            -----------------------
                             ∴ p {if condition then S} q
                               Case I: condition ≡ T ( p ^ condition) {S}q
                               Case II: condition ≡ F (p ^ ¬condition)
-                   <li> IF-ELSE STATEMENT
+                   - IF-ELSE STATEMENT
                             (p ^ condition) {S_1} q
                             (p ^ ¬condition) {S_2} q
                            -------------------------------------
                             ∴ p {if condition then S_1 else S_2} q
- <li> <b> Representations of Functions as Power Series </b>
+ 
+- <b> Representations of Functions as Power Series </b>
           ∑_(n=0)^∞▒a_(x  )  x^n
-             <li> Example:
+             - Example:
                  1 + r + r^2 + r^3 + ... = 1/1-r
                    for r < 1
                    f(x) = 1/1-x = ∑_(n=0)^∞▒x_(n  ) = 1 + x + x^2 +...
@@ -238,16 +244,17 @@ e. <b> PROOF BY EQUIVALENCE </b>
                         = 1 - x^2 + x^4 - x^6
                         
 # WEEK 8
- <li> <b> INTRODUCTION TO SET THEORY </b>
-    <li> We defined <b> set </b> as an unordered collection of distinct objects, which may be anything (including other sets)
-    <li> Order does not matter in a set.
-  <li> ∅ and {∅} are NOT EQUAL! Since it is an empty set, there should not be any element inside the set.
+
+ - <b> INTRODUCTION TO SET THEORY </b>
+    - We defined <b> set </b> as an unordered collection of distinct objects, which may be anything (including other sets)
+    - Order does not matter in a set.
+ - ∅ and {∅} are NOT EQUAL! Since it is an empty set, there should not be any element inside the set.
       Just like how 3 an {3} are NOT EQUAL.  
             3 is a number while {3} is a set containing a number.
-    <li> <b> Set Builder Notation </b>
+    - <b> Set Builder Notation </b>
          { x | some property x satisfies }
    <br>      
-    <li> <b> Venn Diagrams </b>
+    - <b> Venn Diagrams </b>
      
           1. UNION - A ∪ B
              - consists of all element from sets A and B
@@ -263,7 +270,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
              
             </br>
             
-  <li> <b> SET IDENTITIES </b> were also discussed.
+  - <b> SET IDENTITIES </b> were also discussed.
      
  **SET IDENTITIES TABLE**
 
@@ -280,7 +287,7 @@ e. <b> PROOF BY EQUIVALENCE </b>
 |  Absorption Laws  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
 |  Complement Laws  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
 
-<li> <b> SUBSETS </b> - A set S is a <b> <i> subset </b>  </i> of a set T (denoted S ⊆ T) if all elements of S are also elements of T.
+- <b> SUBSETS </b> - A set S is a <b> <i> subset </b>  </i> of a set T (denoted S ⊆ T) if all elements of S are also elements of T.
       ex. 
       - {1,2,3} ⊆ {1,2,3,4}
       - ℕ ⊆ ℤ  (every natural  number is an integer)
@@ -289,18 +296,18 @@ e. <b> PROOF BY EQUIVALENCE </b>
       What are the subsets of {a,b,c}?
          - > It has eight (8) subsets:
              { {a}, {b}, {c}, {a,b}, }b,c}, {a,c}, {a,b,c}, {} }
-             
- <li>> <b> POWER SET </b> - a set of all subsets
-    <li> P(S) = {T|T ⊆ S}
+            
+ - <b> POWER SET </b> - a set of all subsets
+    - P(S) = {T|T ⊆ S}
     
- <li> <b> CARDINALITY </b> - number of elements it contains
+ - <b> CARDINALITY </b> - number of elements it contains
                            - If S is a set, we denote its cardinality by writing |S| 
     
     ex.
-    <li>  The cardinality of N. What is |N|?
+    -  The cardinality of N. What is |N|?
          - There are infinitely many natural numbers.
       
-    <li>  Infinite Cardinalities - alpha-null (0,1,2,3....)
+    -  Infinite Cardinalities - alpha-null (0,1,2,3....)
     
    
 # WEEK 9 
@@ -439,17 +446,17 @@ e. <b> PROOF BY EQUIVALENCE </b>
  - The main qualities are: <i> novelty, functionality, creativity, and over-all impact. </i>
  
 - <b> GRAPH THEORY </b>
-- Graph
+- <b> GRAPH </b>
  - Graphs are discrete structures consisting of vertices and edges that connect these vertices.
  - A graph G = (V, E) consists of V, a nonempty set of vertices (or nodes) and E, a set of edges. 
  - Each edge has etiher one or two vertices associated with it, called its endpoints.
   - Samples of a Graph
-   - [logo] : https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Graph.JPG
-   - [logo] : https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Not%20this%20graph.JPG
+   - [!alt text] : https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Graph.JPG
+   - [!alt text] : https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/Not%20this%20graph.JPG
    
 - <b> HANDSHAKING THEOREM </b>
  - Let G = (V, E) be an undirected graph with e edges. Then
-      > 2e = ∑(v)
+      > 2e = ∑deg(v)
 
  - Example: How many edges are there in a graph with 10 vertices each of degree six? 
      > 2e = ∑deg(v) </br>
@@ -490,7 +497,130 @@ e. <b> PROOF BY EQUIVALENCE </b>
  - pass all the vertices/nodes (islands) exactly once
  - goes back to the starting point
 
-*NOTE: If the graph is a CIRCUIT, it is AUTOMATICALLY a PATH. But a graph being a PATH does not always end up being a CIRCUIT.*
+*NOTES:*
+- If the graph is a CIRCUIT, it is AUTOMATICALLY a PATH. But a graph being a PATH does not always end up being a CIRCUIT.*
 *If it is a PENDANT, it CANNOT be a CIRCUIT.
 
+- <b> HAMILTONIAN PATH </b>
+ - a path that passes through every vertext in the graph exactly once
+ - does not necessarily pass through all the edges of the graph
+ 
+- <b> HAMILTONIAN CIRCUIT or HAMILTONIAN CYCLE </b>
+ - a <i> hamiltonian path </i> which ends in the same place in which it began
+ 
+*NOTE:*
+- EdgesULER ( E for edges )
+- HAMILTONodes ( N for nodes )
 
+- <b> MATRICES of GRAPHS </b>
+ - The adjacency matrix A (or Ag) of G, with respect to this listing of the vertices, is the nxn zero-one matrix with 1 as its (i,j)th entry when Vi and Vj are adjacent, and 0 as its (i,j)ith entry when they are not adjacent
+  
+  - EXAMPLE:
+    - [! alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/matrix1.JPG
+    - [! alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/matrix2.JPG
+
+- <b> ISOMORPHISM of GRAPHS </b>
+ - Simple graphs G1 = (V1, E1) & G2 = (V2, E2) are isomorphic if there is a one-to-one and onto function f from V1 to V2 with the property that a and b are adjacent in G1 if and only if f(a) and f(b) are adjacent in G2, for all a and b in V1.
+ - Example:
+  - [!alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/iso.JPG
+  
+- <b> PLANAR GRAPHS </b>
+ - Planar graps are graphs that can be drawn in the plane without edges having to cross.
+ - Any graph representation of maps/topographical information is planar.
+ - Circuits are usually represented by planar graphs (PCB circuit design)
+  - Example: 
+  - [!alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/planargraph1.JPG
+  
+- <b> EULER'S FORMULA </b>
+ - Let G be a connected planar simple graph with e edges and v vertices. Let r be the number of regions in a planar representation of G. Then
+ > r = e - v + 2 </br>
+ - A planar representation of a graph splits the plane into regions, including an unbounded region.
+
+- <b> HOMEOMORPHIC GRAPHS </b>
+ - ELEMENTARY SUBDIVISION - if a graph is planar, so will be any graph obtained by removing an edge {u, v} and adding a new vertex together with edges {u, w} and {w, v}.
+ - The graphs G1 and G2 are called <i> homeomorhpic </i> if they can be obtained from the same graph by a sequence of elementary subdivisions.
+ 
+- <b> KURATOWSKI'S THEOREM </b>
+ - A graph is nonplanar if and only if it contains a subgraph homeomorphic to the following graphs.
+ 
+
+# WEEK 13
+
+- <b> COLORED GRAPHS </b>
+ - A coloring of a simple graph is the assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color.
+ - The chromatic number of a graph is the least number of colors needed for a coloring of this graph.
+ - The best algorithms known for finding the chromatic number of a graph have exponential worst-case time complexity
+ 
+<b> FOUR COLOR THEOREM </b>
+- The chromatic number of planar graph is no greater than four. (ONLY APPLIES TO PLANAR GRAPHS)
+- non-planar graphs can have a larger number
+
+<b> TREES </b>
+- A <b> TREE </b> is a connected undirected graph with no simple circuits.
+- a data structure that emulates a hierarchichal tree structure with a set of linked nodes.
+- WHY STUDY TREES?
+  - used to construct efficient algorithms for locating items in a list
+  - used in algorithms, such as Huffman coding, that construct efficient codes saving costs in data transmission and storage
+  - used to study games such as checkers and chess and can help determine winning strategies for playing these games
+  - used to model procedures carried out using a sequence of decisions
+  
+- THEOREM: An undirected graph is a treee if and only if there is a unique simple path between any two of its vertices.
+- <b> ROOTED TREE </b>
+ - a tree in which one vertex has been designated as the root and every edge is directed away from the root
+
+- <b> LEAVES </b>
+ - nodes who don't have children
+- <b> INTERNAL NODES </b>
+ - those who have children
+ 
+- <b> M-ARY TREE </b>
+ - A rooted tree is called an m-ary tree if every internal vertex has no more than m children.
+ - The tree is called a full m-ary tree if every internal vertex has exactly m children.
+ 
+<b> ORDERED ROOTED TREE </b>
+ - a rooted tree where the children of each internal vertex are ordered
+ 
+- PROPERTIES OF TREES </b>
+ - A tree with n vertices has n-1 edges
+ - A full m-ary tree with i internal vertices contains n = mi + 1 vertices
+ - A full m-ary tree with 
+  - (i) n vertices has i = (n-1)/m internal vertices and l = [(m-1) n + 1]/m leaves,
+  - (ii) i internal vertices has n = mi + 1 vertices and l = (m-1)i + 1 leaves,
+  - (iii) l leaves has n = (ml - 1)/(m-1) vertices and i = (l-1)/(m-1) internal vertices
+  
+- <b> MODELING COMPUTATION <b> 
+ - Structures in models of computaion:
+    1. Grammars
+    2. Finite-State Machines
+    3. Turing Machines
+    
+- <b> GRAMMARS </b> 
+ - FORMAL LANGUAGES
+ - Why not English or Tagalog or any other language?
+    - There are various meanings in a language. It is not definite or could have multiple meanings. (VAGUE LANGUAGE)
+ - Grammars are extremely important in the construction and theory of compilers.
+ - A SOURCE CODE cannot do everything by itself.
+ 
+ - SYNTAX - The syntax of a language is extremely complicated 
+ - APLHABET - a finite set of symbols
+ - VOCABULARY (V) - is a finite, nonempty set of elements called <i> symbols </i>
+ - WORD (or sentece) over V
+ 
+- <b> AUTOMATA THEORY </b>
+ - studies the laws of computation
+ - lexical analyzers
+ 
+- <b> FINITE-STATE MACHINE </b>
+ - consists of a finite set S of states, a finite input alphabet I, a finite output alphabet O, a transitiom function f that assigns to each state and input pair a new state, an output function g that assigns to each state and input pair an output, and an initial state s0.
+ - example
+   - [!alt text]: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-HannahGlean/blob/master/vending%20machine.png
+ 
+- <b> FINITE-MACHINES (NO OUTPUT) </b>
+ - A finite-state automaton M = (S, I, f, s0, F ) consists of a finite set S of states, a finite input alphabet I, a transition function f that assigns a next state to every pair of state and input (so that f : S × I → S), an initial or start state s0, and a subset F of S consisting of final (or accepting states).
+
+- <b> TURING MACHINES </b> [ T =(S,I,f,s0)]
+ - consists of a finite set S of states, an alphabet I containing the blank symbol B, a partial function f from S × I to S × I × {R, L}, and a starting state s0.
+ 
+
+ 
+ 
